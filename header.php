@@ -11,6 +11,7 @@
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/custom.css" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/media.css" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/pushdown.css" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/slider.css" />
 <!-- google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Muli:300,400,300italic,400italic|Nunito:400,300,700' rel='stylesheet' type='text/css'>
 <!-- font awesome for icons -->
@@ -24,6 +25,8 @@
 <!-- foundation script -->
 <script src="<?php bloginfo('template_directory'); ?>/js/foundation/foundation.offcanvas.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/foundation/foundation.js"></script>
+<!-- slider script -->
+<script src="<?php bloginfo('template_directory'); ?>/js/modernizr.custom.js"></script>
 <!-- hover action -->
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/hover.css" />	
 <!-- form css -->
@@ -44,7 +47,7 @@
 		</div>
 
 		<div class="mail fr">
-			<a href="#"><i class="fa fa-envelope"></i></a>
+			<a href="mailto:info@thomasmeyersstudio.com"><i class="fa fa-envelope"></i></a>
 		</div>
 		
 		<!-- start to main navigation and logo -->
