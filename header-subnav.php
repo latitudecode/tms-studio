@@ -10,6 +10,7 @@
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/normalize.css" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/custom.css" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/media.css" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/device.css" />  
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/pushdown.css" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/slider.css" />
 <!-- google fonts -->
@@ -114,6 +115,7 @@
 	        <!-- whatever you want goes here -->
 	        <ul>
 	        	<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+	        	<li class="contact-menu"><a href="mailto:info@thomasmeyersstudio.com">contact</a></li>
 				<!-- <li><a href="#">work</a></li>
 				<li><a href="#">studio</a></li>
 				<li><a href="#">explore</a></li>
@@ -123,4 +125,4 @@
 			</ul>
 	    </aside>
 	</div> <!-- end main flyout menu content -->
-  <!-- close the off-canvas menu -
+  <!-- close the off-canvas menu -->

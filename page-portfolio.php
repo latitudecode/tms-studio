@@ -33,7 +33,7 @@
 									</li>
 									<li>	
 										<h2><?php the_title(); ?></h2>
-										<p><?php the_excerpt(); ?></p>
+										<?php the_excerpt(); ?>
 									</li>
 								</ul>
 							</div>	<!-- medium entry -->
@@ -60,7 +60,7 @@
 									</li>
 									<li>	
 										<h2><?php the_title(); ?></h2>
-										<p><?php the_excerpt(); ?></p>
+										<?php the_excerpt(); ?>
 									</li>
 								</ul>
 							</div>	<!-- medium entry -->
@@ -90,7 +90,7 @@
 									</li>
 									<li>	
 										<h2><?php the_title(); ?></h2>
-										<p><?php the_excerpt(); ?></p>
+										<?php the_excerpt(); ?>
 									</li>
 								</ul>
 							</div>	<!-- medium entry -->

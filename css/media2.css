@@ -6,7 +6,9 @@
 
 /* ===================== tablet 1439 to 768px =============================== */
 
-
+@-ms-viewport {
+  width: device-width;
+}
 
 @media only screen and (min-width: 920px) and (max-width: 1439px) {
 	.flyout, .mail {
@@ -71,6 +73,7 @@
 .intro {
 	width: 65%;
 }
+
 
 }
 
@@ -350,6 +353,7 @@ width: 29%;
 
 
 
+
 }
 
 /* =============================== mobiles below 768 =================== */
@@ -403,13 +407,12 @@ width: 29%;
 	
 	/* header and navigation */
 
-	header {
-		height: 65px;
-	}
 	.logo img {
 		top: 14px;
 		width: 40px;
+		left: 45%;
 	}
+
 	.mail i, .flyout i {
 		top: 20px;
 	}
@@ -473,28 +476,36 @@ width: 29%;
 		top: -50px;
 	}
 
+
+
 }
+
+
 
 /* ===================== Mobiles below 399px =============================== */
 
-@media only screen and (max-width : 399px) {
-  
+@media (min-width : 320px) {
+
+  /* header */
+
   /* cat list */
 
   .category-intro {
   	height: 790px;
   }
 
-  .category-list {
-  	height: auto;
-  }
+	.category-list {
+	height: auto;
+	}
 
   	.category-list .row .col-md-3 {
 		border-right: none;
 	}
 
-		.main-columns {
-		top: -50px;
-	}
+
+
 
 }
+
+
+

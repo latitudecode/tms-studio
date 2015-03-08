@@ -15,7 +15,7 @@
 			<ul>
 				<li class="previous"><?php previous_post_link( '%link', _x( '&larr;', 'Previous post link', 'twentytwelve' ) . '</span>' ); ?></li>
 				<li class="product-title"><?php the_title(); ?> - <?php echo get_post_meta($post->ID, 'latitude_size', true); ?></li>
-				<li class="grid-block"><a href="#"><i class="fa fa-th-large"></i></a></li>
+				<li class="grid-block"><a href="http://thomasmeyersstudio.com/new/?page_id=215"><i class="fa fa-th-large"></i></a></li>
 				<li class="next"><?php next_post_link( '%link', _x( '&rarr;', 'Next post link', 'twentytwelve' ) . '</span>' ); ?></li>												
 			</ul>
 
@@ -61,7 +61,4 @@
 	</script>    
     <script>
       $(document).foundation();
-    </script>
-<?php wp_footer(); ?>
-</body>
-</html>
+    </

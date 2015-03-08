@@ -35,8 +35,8 @@ h6 {
 }
 
 i.fa {
-	font-size: 21px;
-	color: grey;
+	font-size: 21px !important;
+	color: #c5b3a2 !important;
 }
 
 ul {
@@ -135,7 +135,12 @@ margin-left: 44px;
 }
 
 a:link {
-	color: #8c4f50;
+	color: #c0b08a;
+	
+}
+
+a:visited {
+color: #8c4f50;
 }
 
 a:active {
@@ -145,6 +150,8 @@ a:active {
 a:hover {
 	color: #c0b08a;
 }
+
+
 
 /* responsive  nav */
 
@@ -384,7 +391,7 @@ right: 6%;
 /* product menu */
 
 .product-menu ul {
-	margin-top: 16px;
+	margin-top: 26px;
 }
 
 /* pushdown */
@@ -498,7 +505,7 @@ ul.media, ul.media li {
 
 img.attachment-post-thumbnail.wp-post-image {
 width: 100%;
-height: auto;
+height: 100%;
 }
 
 
@@ -600,8 +607,13 @@ img.port-sml {
 .product-detail-section { 
 	text-align: center;
 	padding-bottom: 124px;
-	margin-top: 60px;
+/*	margin-top: 60px; */
+	padding-top: 100px;
 	margin-bottom: 60px;
+}
+
+.main-content.product-detail {
+	top: 70px;
 }
 
 .product {}
@@ -659,9 +671,13 @@ li.grid-block {
 	right: 25px;
 }
 
-img.attachment-post-thumbnail.wp-post-image {
-	width: 600px;
+.product-detail .product-detail-section img.attachment-post-thumbnail.wp-post-image {
+	width: 400px;
 }
+
+section.main-content.product-detail { background-color: #474747 !important;}
+
+
 
 /* footer */
 
@@ -695,8 +711,47 @@ body.page-id-135 .sub-nav {
     display: none !important;
 }
 
+/* info page */
+
+.info .col-md-3 {
+	padding: 0px;
+	font-size: 13px;
+}
+
+.info p {
+	text-align: left;
+}
+
+.info .right-col {
+  position: absolute;
+  right: 40px;
+}
 
 
+.right-col h2 {
+	text-align: left;
+	padding-left: 18px;
+	padding-bottom: 20px;
+}
 
+.contact-info {
+	font-size: 14px;
+}
 
+.fav li {
+  line-height: 30px;
+  text-align: left;
+  font-family: 'Nunito';
+  font-weight: lighter;
+}
 
+.head li {
+  line-height: 30px;
+  text-align: left;
+  font-family: 'Nunito';
+  color: #8c4f50;
+
+}
+
+ul.fav {
+  padding-left: 18

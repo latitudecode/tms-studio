@@ -9,7 +9,8 @@
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/bootstrap-responsive.css" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/normalize.css" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/custom.css" />
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/media.css" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/media.css" /> 
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/device.css" /> 
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/pushdown.css" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/slider.css" />
 <!-- google fonts -->
@@ -21,7 +22,7 @@
 <!-- foundation css -->
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/foundation.css" />
 <!-- make it responsive -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 <!-- foundation script -->
 <script src="<?php bloginfo('template_directory'); ?>/js/foundation/foundation.offcanvas.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/foundation/foundation.js"></script>
@@ -31,6 +32,17 @@
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/hover.css" />	
 <!-- form css -->
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/forms.css" />	
+<!-- google analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60492406-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 <?php wp_head(); ?>
 </head>
 <body>
@@ -105,6 +117,7 @@
 	        <!-- whatever you want goes here -->
 	        <ul>
 	        	<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+	        	<li class="contact-menu"><a href="mailto:info@thomasmeyersstudio.com">contact</a></li>
 				<!-- <li><a href="#">work</a></li>
 				<li><a href="#">studio</a></li>
 				<li><a href="#">explore</a></li>
@@ -114,4 +127,4 @@
 			</ul>
 	    </aside>
 	</div> <!-- end main flyout menu content -->
-  <!-- close the off-canvas menu -
+  <!-- close the off-canvas menu -->

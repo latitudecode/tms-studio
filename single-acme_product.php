@@ -27,13 +27,6 @@ get_header('subnav'); ?>
 
 				<?php endwhile; endif; wp_reset_query(); ?>	
 
-
-
-
-
-
-
-
 		</div> <!-- end product wrap -->
 	</section> <!-- end main product wrapper -->
 
