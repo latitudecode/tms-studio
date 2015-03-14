@@ -133,7 +133,7 @@ and (orientation : landscape) {
 .logo-text { display: none !important; }
 .logo img { left: 5% !important;}
 /* footer */
-footer {margin-top: 70px !important;}
+footer {margin-top: 60px !important;}
 
 /* slider */
 /* homepage */
@@ -189,7 +189,7 @@ and (max-width : 1024px) {
 .primary-nav {  display: none; }
 .logo-text { display: none !important; }
 .flyout i, .mail i {display: inline;}
-.logo img {left: 46% !important;}
+.logo img {left: 43% !important;}
 /* footer */
 /* slider */
 /* homepage */

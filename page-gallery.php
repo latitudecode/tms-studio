@@ -17,10 +17,17 @@
 	<section class="slider">
 			<div id="cbp-fwslider" class="cbp-fwslider">
 				<ul>
-					<li><img src="<?php bloginfo('template_directory'); ?>/images/slide1.jpg" alt="img01"/></li>
-					<li><img src="<?php bloginfo('template_directory'); ?>/images/slide2.jpg" alt="img02"/></li>
-					<li><img src="<?php bloginfo('template_directory'); ?>/images/slide3.jpg" alt="img03"/></li>
-					<li><img src="<?php bloginfo('template_directory'); ?>/images/slide4.jpg" alt="img04"/></li>
+					<li><img src="<?php bloginfo('template_directory'); ?>/images/slider/thomas-meyers-studio-earth-shelter-bird.jpg" alt="img01"/></li>
+					<li><img src="<?php bloginfo('template_directory'); ?>/images/slider/thomas-meyers-studio-earth-shelter-zorro.jpg" alt="img02"/></li>
+					<li><img src="<?php bloginfo('template_directory'); ?>/images/slider/thomas-meyers-studio-earth-shelter.jpg" alt="img03"/></li>
+					<li><img src="<?php bloginfo('template_directory'); ?>/images/slider/thomas-meyers-studio-earth-shelter3.jpg" alt="img04"/></li>
+					<li><img src="<?php bloginfo('template_directory'); ?>/images/slider/thomas-meyers-studio-inside.jpg" alt="img04"/></li>
+					<li><img src="<?php bloginfo('template_directory'); ?>/images/slider/thomas-meyers-studio-monadnock.jpg" alt="img04"/></li>
+					<li><img src="<?php bloginfo('template_directory'); ?>/images/slider/thomas-meyers-studio-piece3.jpg" alt="img04"/></li>
+					<li><img src="<?php bloginfo('template_directory'); ?>/images/slider/thomas-meyers-studio-piece4.jpg" alt="img04"/></li>
+					<li><img src="<?php bloginfo('template_directory'); ?>/images/slider/thomas-meyers-studio-studionight3.jpg" alt="img04"/></li>
+					<li><img src="<?php bloginfo('template_directory'); ?>/images/slider/thomas-meyers-studio-thewall.jpg" alt="img04"/></li>
+
 				</ul>
 			</div>
 	</section>

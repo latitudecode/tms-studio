@@ -13,7 +13,7 @@
 	            	<a href="http://eepurl.com/benFan"><i class="fa fa-angle-right"></i></a>
 	            </button>
         </div>
-		<div class="rightz fr"><h4>&copy; 2014 Thomas Meyers</h4></div>
+		<div class="rightz fr"><h4>&copy; 2015 Thomas Meyers</h4></div>
 	</footer>
 
 </div>

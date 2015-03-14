@@ -140,11 +140,11 @@ a:link {
 }
 
 a:visited {
-color: #8c4f50;
+color: #c0b08a;
 }
 
 a:active {
-	color: #c0b08a;
+	color: #8c4f50;
 }
 
 a:hover {

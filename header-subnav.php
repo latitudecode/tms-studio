@@ -22,7 +22,7 @@
 <!-- foundation css -->
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/foundation.css" />
 <!-- make it responsive -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 <!-- foundation script -->
 <script src="<?php bloginfo('template_directory'); ?>/js/foundation/foundation.offcanvas.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/foundation/foundation.js"></script>
@@ -31,7 +31,18 @@
 <!-- hover action -->
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/hover.css" />	
 <!-- form css -->
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/forms.css" />	
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/forms.css" />
+<!-- google analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60492406-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 <?php wp_head(); ?>
 </head>
 <body>
