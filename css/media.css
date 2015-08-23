@@ -35,12 +35,13 @@ section.main-content.product-details { top: 20px !important; }
 /* list */
 .category-intro-mosaic, .category-intro-collage {top: -15px !important;}
 .sub-nav {display: none !important;}
-.intro {width: 80% !important; margin-left: 25px;}
+.intro {width: 55% !important; margin-left: 25px;}
 .category-intro-mosaic {height:700px !important;}
 .category-intro-collage {height: 795px !important}
 .category-list .row .col-md-3 {padding-top: 20px !important;}
 .main-columns {top: -15px !important;}
 .col-md-3 img { margin-bottom: 25px; }
+.row-effect figure figcaption {  bottom: 30px !important;}
 /* detial */
 .product-detail-section {text-align: center; padding-bottom: 75px;margin-top: 0px;margin-bottom: 0px;}
 .product-detail-section img.attachment-post-thumbnail.wp-post-image { width: 85%; }
@@ -75,7 +76,6 @@ footer {height: 150px !important;}
 /* homepage */
 /* work */
 /* list */
-.category-intro-mosaic {height:450px !important;}
 /* detial */
 li.product-title {right: 38%;}
 }
@@ -89,6 +89,20 @@ and (max-width : 320px) {
 /* homepage */
 /* work */
 /* list */
+/* detial */
+}
+
+/* Devices between 480px and 768px ----------- */
+@media only screen 
+and (min-device-width : 480px) 
+and (max-device-width : 768px) {
+/* header */
+/* footer */
+/* slider */
+/* homepage */
+/* work */
+/* list */
+.intro {width: 80% !important;}
 /* detial */
 }
 
@@ -114,7 +128,7 @@ li.contact-menu { padding-top: 35px; }
 li.title {padding: 0px !important;}
 /* work */
 /* list */
-.intro {width: 70%;}
+.intro {width: 70% !important;}
 .sub-nav {top: 100px;position: relative;}
 .category-intro-collage, .category-intro-mosaic {height: 400px !important;}
 /* detial */
@@ -140,6 +154,7 @@ footer {margin-top: 70px !important;}
 /* work */
 .product-section .col-md-4 { width: 29% !important;}
 /* list */
+.intro {width: 70% !important;}
 /* detial */
 .main-content.product-detail {top:70px !important;}
 }
@@ -165,7 +180,13 @@ and (orientation : portrait) {
 /* Desktops and laptops ----------- */
 @media only screen 
 and (min-width : 1024px) {
-
+/* header */
+/* footer */
+/* slider */
+/* homepage */
+/* work */
+/* list */
+/* detial */
 }
 
 /* Desktops and laptops ----------- */
@@ -196,6 +217,7 @@ and (max-device-width : 1024px) {
 /* work */
 .sub-nav {position: relative; top: 100px}
 /* list */
+.intro {width: 75% !important;}
 /* detial */
 }
 
