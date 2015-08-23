@@ -107,6 +107,24 @@ and (max-device-width : 768px) {
 /* list */
 .intro {width: 80% !important;}
 /* detial */
+/* info */
+.col-md-3.right-col.tablet { display: none;}
+}
+
+/* Devices between 480px and 768px ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 990px) {
+/* header */
+/* footer */
+/* slider */
+/* homepage */
+/* work */
+/* list */
+.intro {width: 80% !important;}
+/* detial */
+/* info */
+.info .right-col {left:50% !important}
 }
 
 /* iPads (portrait and landscape) ----------- */
