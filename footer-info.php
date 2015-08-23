@@ -6,7 +6,7 @@
  */
 ?>
 
-	<footer>		
+	<footer class="footer-info">		
 		<div class="signup-man fl">
 			<input class="signup-field" type="email" required="" placeholder="Signup for updates" id="mce-EMAIL" name="EMAIL" value="">
 				<button class="signup-button" id="mc-embedded-subscribe" name="subscribe" type="submit">
